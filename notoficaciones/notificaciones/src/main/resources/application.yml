@@ -1,8 +1,11 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/db-notifications
-    username: postgres
-    password: isaac
+    #url: jdbc:postgresql://localhost:5433/db-notifications
+    #username: postgres
+    #password: isaac
+    url: jdbc:postgresql://localhost:26257/notificaciones_db?user=root&password=
+    username: root
+    password: 
   jpa:
     hibernate:
       ddl-auto: update
